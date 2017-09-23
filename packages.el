@@ -21,9 +21,11 @@
   (use-package elm-test
     :after elm-mode
     :init
-    (spacemacs/set-leader-keys-for-major-mode 'elm-mode
-      "tb" 'elm-test-run
-      "tw" 'elm-test-watch
-      "tr" 'elm-test-rerun)))
+    (progn
+      (spacemacs/declare-prefix-for-mode 'elm-mode "mt" "elm/test")
+      (spacemacs/set-leader-keys-for-major-mode 'elm-mode
+        "tb" 'elm-test-run
+        "tw" 'elm-test-watch
+        "tr" 'elm-test-rerun))))
 
 ;;; packages.el ends here
