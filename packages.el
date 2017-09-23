@@ -23,11 +23,6 @@
     :init
     (spacemacs/set-leader-keys-for-major-mode 'elm-mode
       "tb" 'elm-test-run
-      "tr" 'elm-test-rerun)
-    :config
-    (setq
-     elm-test-find-project-root (lambda () (locate-dominating-file (buffer-file-name) "script"))
-     elm-test-command "./script/elm-test"
-     )))
+      "tr" 'elm-test-rerun)))
 
 ;;; packages.el ends here
