@@ -23,6 +23,7 @@
     :init
     (spacemacs/set-leader-keys-for-major-mode 'elm-mode
       "tb" 'elm-test-run
+      "tw" 'elm-test-watch
       "tr" 'elm-test-rerun)))
 
 ;;; packages.el ends here
