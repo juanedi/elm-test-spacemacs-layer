@@ -25,6 +25,9 @@
       "tb" 'elm-test-run
       "tr" 'elm-test-rerun)
     :config
-    (setq elm-test-command "./script/elm-test")))
+    (setq
+     elm-test-find-project-root (lambda () (locate-dominating-file (buffer-file-name) "script"))
+     elm-test-command "./script/elm-test"
+     )))
 
 ;;; packages.el ends here
