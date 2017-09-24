@@ -26,6 +26,8 @@
       (spacemacs/set-leader-keys-for-major-mode 'elm-mode
         "tb" 'elm-test-run
         "tw" 'elm-test-watch
-        "tr" 'elm-test-rerun))))
+        "tr" 'elm-test-rerun
+        "t TAB" 'elm-test-toggle-test-and-target
+        ))))
 
 ;;; packages.el ends here
