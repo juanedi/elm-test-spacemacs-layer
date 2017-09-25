@@ -26,4 +26,4 @@ The following keybindings are available on `elm-mode`.
 | ~SPC m t TAB~ | Toggle back and forth between a test module and its target                   |
 
 
-Hint: the `SPC m` can be replaced with `,` :-)
+Hint: the ~SPC m~ can be replaced with ~,~ :-)
