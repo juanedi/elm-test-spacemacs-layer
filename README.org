@@ -1,0 +1,29 @@
+#+TITLE: elm-test layer
+
+# TOC links should be GitHub style anchors.
+* Table of Contents                                        :TOC_4_gh:noexport:
+- [[#description][Description]]
+- [[#install][Install]]
+- [[#key-bindings][Key bindings]]
+
+* Description
+This layers makes it super easy to run tests on your Elm project.
+
+* Install
+To use this configuration layer, add it to your =~/.spacemacs=. You will need to
+add =elm-test= to the existing =dotspacemacs-configuration-layers= list in this
+file.
+
+* Key bindings
+
+The following keybindings are available on `elm-mode`.
+
+| Key Binding   | Description                                                                  |
+|---------------+------------------------------------------------------------------------------|
+| ~SPC m t b~   | Run the test suites associated with the current buffer                       |
+| ~SPC m t w~   | Run the test suites associated with the current buffer and watch for changes |
+| ~SPC m t r~   | Run the last test module again                                               |
+| ~SPC m t TAB~ | Toggle back and forth between a test module and its target                   |
+
+
+Hint: the `SPC m` can be replaced with `,` :-)
