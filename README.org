@@ -11,7 +11,7 @@ This layers makes it super easy to run tests on your Elm project.
 
 * Install
 
-First, see [[../../README.md][this]] for instructions on how to add this repo to your layers load path.
+See the "Using layers only" section of [[../../README.md][this doc]] for instructions on how to add this repo to your layers load path.
 
 Then, to use this configuration layer, add it to your =~/.spacemacs=. You will need to
 add =elm-test= to the existing =dotspacemacs-configuration-layers= list in this
