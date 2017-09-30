@@ -32,5 +32,4 @@ The following keybindings are available on `elm-mode`.
 | ~SPC m t r~   | Run the last test module again                                               |
 | ~SPC m t TAB~ | Toggle back and forth between a test module and its target                   |
 
-
-Hint: the ~SPC m~ can be replaced with ~,~ :-)
+Hint: remember that you can also use comma as prefix for major mode keybindings.
