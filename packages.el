@@ -13,12 +13,12 @@
 
 (defconst elm-test-packages
   '(
-    (elm-test :location local)
+    (elm-test-el :location (recipe :fetcher github :repo "juanedi/elm-test-el"))
     )
   )
 
-(defun elm-test/init-elm-test ()
-  (use-package elm-test
+(defun elm-test/init-elm-test-el ()
+  (use-package elm-test-el
     :after elm-mode
     :init
     (progn
