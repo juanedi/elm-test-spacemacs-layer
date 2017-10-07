@@ -25,8 +25,10 @@
       (spacemacs/declare-prefix-for-mode 'elm-mode "mt" "elm/test")
       (spacemacs/set-leader-keys-for-major-mode 'elm-mode
         "tb" 'elm-test-run
-        "tw" 'elm-test-watch
+        "td" 'elm-test-run-directory
+        "tp" 'elm-test-run-project
         "tr" 'elm-test-rerun
+        "tw" 'elm-test-watch
         "t TAB" 'elm-test-toggle-test-and-target
         ))))
 
