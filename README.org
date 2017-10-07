@@ -28,8 +28,10 @@ The following keybindings are available on `elm-mode`.
 | Key Binding   | Description                                                                  |
 |---------------+------------------------------------------------------------------------------|
 | ~SPC m t b~   | Run the test suites associated with the current buffer                       |
+| ~SPC m t d~   | Prompt for a directory to run tests on                                       |
+| ~SPC m t p~   | Run tests for the whole project                                              |
+| ~SPC m t r~   | Re-run the last test command                                                 |
 | ~SPC m t w~   | Run the test suites associated with the current buffer and watch for changes |
-| ~SPC m t r~   | Run the last test module again                                               |
 | ~SPC m t TAB~ | Toggle back and forth between a test module and its target                   |
 
 Hint: remember that you can also use comma as prefix for major mode keybindings.
