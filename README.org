@@ -1,5 +1,9 @@
 #+TITLE: elm-test layer
 
+* :warning: DEPRECATED!
+** This configuration is merged into the official Elm layer on the develop branch of Spacemacs :tada: 
+** This might be useful if you're using the master branch 
+
 # TOC links should be GitHub style anchors.
 * Table of Contents                                        :TOC_4_gh:noexport:
 - [[#description][Description]]
